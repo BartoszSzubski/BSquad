@@ -1,0 +1,196 @@
+body
+{
+margin: 0;
+background-color: #660000;
+color:#ffcccc;
+font-size:15px;
+font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+h1.logo
+{
+font-size: 30px;
+color:aliceblue;
+text-align:left;
+letter-spacing:2px;
+margin-top:30px;
+margin-left: 30px;
+float:left;
+}
+
+
+nav
+{
+background-color:black;
+text-align: right;
+background-image: url("betaczerw.jpg");
+}
+
+.menu
+{
+margin:0;
+padding:25px;
+list-style-type:none;
+font-size:20px;
+line-height:250%;
+}
+
+.menu > li
+{
+display: inline-block;
+padding-left:35px;
+padding-right:35px;
+border-right: 2px dashed grey;
+
+}
+
+.menu > li:first-child
+{
+border-left: 2px dashed grey;
+}
+
+.menu a:hover
+
+{
+color:brown;
+}
+
+.menu a
+{
+color:whitesmoke;
+text-decoration: none;
+}
+
+h1
+{
+font-size:30px;
+color:whitesmoke;
+}
+
+.sekcje
+{
+padding:0;
+text-align:left;
+width:1230px;
+margin-left:140px;
+}
+
+.eventy
+{
+display: inline-block;
+}
+
+.font-size1
+{
+font-size:20px;    
+}
+
+#aktualnosci
+{
+width:300px;
+height:500px;
+margin:10px;
+background: rgb(226,44,44);
+background: radial-gradient(circle, rgba(226,44,44,1) 0%, rgba(126,4,28,1) 100%);
+float:right;
+padding:20px;
+font-size:30px;
+border-radius:30px;
+list-style-type:none;
+line-height: 250%;
+
+}
+
+#aktualnosci a
+{
+color:whitesmoke;
+text-decoration: none;
+}
+
+h2
+{
+text-align:center;
+text-shadow: 2px 2px 2px darkred;
+}
+
+#aktualnosci a:hover
+
+{
+color:brown;
+}
+
+footer
+{
+
+height:90px;
+background-color:black;
+margin-top:400px;
+list-style-type:none;
+
+}
+
+
+
+.prawa
+{
+float:right;
+padding-right:10px;
+
+}
+
+#zegarek
+{
+float:left;
+margin-right:1000px;
+}
+
+.container
+{
+    width:540px;
+    margin:20px auto;
+    overflow:aut;
+}
+
+.slider-inner
+{
+    width:500px;
+    height:300px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    padding:3px;
+    border:#666 solid 1px;
+}
+
+.slider-inner img{
+    display:none;
+    width:500px;
+    height:300px;
+}
+    
+.slider-inner img.active
+{
+    display:inline-block;    
+ }
+
+.prev,.next
+{
+    float:left;
+    margin-top:130px;
+    cursor: pointer;
+}
+
+.prev{
+    
+position:relative;
+margin-right:-45px;
+z-index:100;
+}
+
+.next{
+    position:relative;
+    margin-left:-45px;
+    z-index:100;
+    
+}
+
