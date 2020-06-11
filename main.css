@@ -16,8 +16,14 @@ letter-spacing:2px;
 margin-top:30px;
 margin-left: 30px;
 float:left;
+text-decoration:none;
 }
 
+h1.logo a
+{
+color:whitesmoke;
+text-decoration: none;
+}
 
 nav
 {
@@ -61,6 +67,14 @@ color:whitesmoke;
 text-decoration: none;
 }
 
+.menu2 {
+display: flex;
+justify-content: space-around;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
 h1
 {
 font-size:30px;
@@ -69,15 +83,37 @@ color:whitesmoke;
 
 .sekcje
 {
-padding:0;
-text-align:left;
-width:1230px;
-margin-left:140px;
+padding: 50px;
+max-width:1230px;
+margin: 0 auto;
 }
-
+.galeria
+{
+display: flex;
+}
 .eventy
 {
-display: inline-block;
+display: block;
+width: 33%;
+}
+
+@media only screen and (max-width: 900px) {
+.galeria
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.eventy {
+    width: 100%;
+    margin: 20px 0;
+}
+}
+
+.eventy img {
+width: 100%;
+padding: 0 25px;
+box-sizing: border-box;
 }
 
 .font-size1
@@ -87,18 +123,13 @@ font-size:20px;
 
 #aktualnosci
 {
-width:300px;
-height:500px;
 margin:10px;
 background: rgb(226,44,44);
 background: radial-gradient(circle, rgba(226,44,44,1) 0%, rgba(126,4,28,1) 100%);
-float:right;
 padding:20px;
 font-size:30px;
 border-radius:30px;
 list-style-type:none;
-line-height: 250%;
-
 }
 
 #aktualnosci a
@@ -107,9 +138,14 @@ color:whitesmoke;
 text-decoration: none;
 }
 
+#aktualnosci h2
+{
+margin: 0 0 20px;
+}
+
 h2
 {
-text-align:center;
+text-align:center;<
 text-shadow: 2px 2px 2px darkred;
 }
 
@@ -121,76 +157,166 @@ color:brown;
 
 footer
 {
-
-height:90px;
 background-color:black;
-margin-top:400px;
 list-style-type:none;
-
+padding: 20px;
 }
 
+#mail
+{
+list-style: none;
+margin: 0;
+padding: 0;
+padding-bottom: 10px;
+}
 
+#mail li {
+margin: 5px 0;
+}
 
 .prawa
 {
-float:right;
 padding-right:10px;
+}
 
+.prawa p
+{
+margin: 0;
+padding: 0;
 }
 
 #zegarek
 {
-float:left;
-margin-right:1000px;
+margin-bottom: 10px;
 }
 
 .container
 {
-    width:540px;
-    margin:20px auto;
-    overflow:aut;
+margin:20px auto;
+overflow:auto;
+position: relative;
+}
+
+.slider-outer
+{
+margin-top: 40px;
+height: 100%;
 }
 
 .slider-inner
 {
-    width:500px;
-    height:300px;
-    position:relative;
-    overflow:hidden;
-    float:left;
-    padding:3px;
-    border:#666 solid 1px;
+height: 100%;
+margin: 0 auto;
+position:relative;
+border:#666 solid 1px;
 }
 
 .slider-inner img{
-    display:none;
-    width:500px;
-    height:300px;
+display:none;
+width: 100%;
 }
-    
+
 .slider-inner img.active
 {
-    display:inline-block;    
- }
+display:inline-block;    
+}
 
 .prev,.next
 {
-    float:left;
-    margin-top:130px;
-    cursor: pointer;
+cursor: pointer;
 }
 
-.prev{
-    
-position:relative;
-margin-right:-45px;
+.prev{ 
+position: absolute;  
+top: 50%;  
+left: 0;  
 z-index:100;
+
 }
 
 .next{
-    position:relative;
-    margin-left:-45px;
-    z-index:100;
+position: absolute;
+right: 0;
+z-index:100;
+top: 50%;
+}
+
+.uslugitekst
+{
+width:100%;
+margin:20px auto;
+font-size: 30px;
+}
+
+.onastekst
+{
+width:100%;
+margin:20px auto;
+font-size: 20px;
+}
+
+
+.yt
+{
+	margin: 30px auto;
+	width: 20%;
+	height: 50%;
+	background-color: #d94348;
+	float: left;
+    margin-left:200px;
+    text-align:center;
+    border-radius:30px;
+    padding-bottom:30px;
+   
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	margin: 30px auto;
+	width: 20%;
+	height: 50%;
+	background-color: #4668b3;
+	float: left;
+    margin-left:100px;
+    text-align:center;
+    border-radius:30px;
+     padding-bottom:30px;
     
 }
 
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.mail
+{
+	margin: 30px auto;
+	width: 20%;
+	height: 50%;
+	background-color: #93c748;
+	float: left;
+    margin-left:100px;
+    text-align:center;
+    border-radius:30px;
+    padding-bottom:30px;
+
+}
+
+.mail:hover
+{
+	background-color: #82b637;
+}
+
+
+
+#szer
+{
+width:100%;
+height:300px;
+}
