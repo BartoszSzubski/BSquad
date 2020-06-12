@@ -54,7 +54,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-facebook:before { content: '\e800'; font-size: 156px; margin-top: 35px; width:100%;} /* '' */
-.icon-youtube:before { content: '\e802'; font-size: 156px; margin-top: 35px; width:100%;} /* '' */
-.icon-mail:before { content: '\e807'; font-size: 156px; margin-top: 35px;width:100%;} /* '' */
+.icon-facebook:before { content: '\e800'; font-size: 156px; margin-top: 35px; } /* '' */
+.icon-youtube:before { content: '\e802'; font-size: 156px; margin-top: 35px; } /* '' */
+.icon-mail:before { content: '\e807'; font-size: 156px; margin-top: 35px;} /* '' */
 .icon-mail-alt:before { content: '\e808'; } /* '' */
