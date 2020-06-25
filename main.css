@@ -5,6 +5,9 @@ background-color: #660000;
 color:#ffcccc;
 font-size:15px;
 font-family: Arial, Helvetica, Verdana, sans-serif;
+
+		       padding:0;
+		       height:100%;
 }
 
 h1.logo
@@ -160,7 +163,8 @@ footer
 background-color:black;
 list-style-type:none;
 padding: 20px;
-margin-bottom:1px;
+bottom:0;
+
 
 }
 
@@ -325,3 +329,4 @@ justify-content: space-around;
 
 #szer
 {width: 0;height:300px;}
+
