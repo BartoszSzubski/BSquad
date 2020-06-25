@@ -8,7 +8,7 @@ margin: 0;
 background-color: #660000;
 color:#ffcccc;
 font-size:15px;
-font-family: Arial, Helvetica, Verdana, sans-serif;
+font-family: 'Spartan', sans-serif;
 padding:0;
 height:100%;
 display:flex;
@@ -271,6 +271,7 @@ font-size: 20px;
 {
 display: flex;
 justify-content: space-around;
+margin-top:100px;
 }
 
 @media only screen and (max-width: 900px) {
