@@ -66,7 +66,7 @@ border-left: 2px dashed grey;
 .menu a:hover
 
 {
-color:brown;
+color:black;
 }
 
 .menu a
@@ -160,7 +160,7 @@ text-shadow: 2px 2px 2px darkred;
 #aktualnosci a:hover
 
 {
-color:brown;
+color:black;
 }
 
 footer
